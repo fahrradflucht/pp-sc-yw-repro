@@ -1,7 +1,7 @@
 import React from "react";
 import styled, { StyledComponentClass, injectGlobal } from "styled-components";
 
-injectGlobal`html{ color: pink }`;
+injectGlobal`html{ background-color: pink }`;
 
 export default styled.button`
   background-color: blue;
