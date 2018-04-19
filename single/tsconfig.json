@@ -1,0 +1,14 @@
+{
+  "extends": "./node_modules/ts-config/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "outDir": "./lib",
+    "rootDir": "./src",
+    "noUnusedLocals": false,
+    "lib": [
+      "dom",
+      "es2015",
+      "es2017.object"
+    ]
+  }
+}
